@@ -1,0 +1,488 @@
+$hTextHColor : #FF0036;
+.h-mid{
+    >.wrapper{
+        width: 1190px;
+        margin: 0 auto;
+        padding-right: 0;
+        height: 85px;
+        >h2{
+            float: left;
+            width: 155px;
+            padding-top: 20px;
+            padding-right: 7px;
+            height: 44px;
+            >.logo{
+                display: block;
+                width: 145px;
+                overflow: hidden;
+                font-size: 0;
+                >img{
+                    height: 30px;
+                    width: 145px;
+                }
+            }
+        }
+        >#shopExtra{
+            float: left;
+            position: relative;
+            padding: 15px 0 0;
+            height: 50px;
+            >.slogo{
+                background: -174px -30px no-repeat;
+                float: left;
+                padding: 0 10px;
+                height: 38px;
+                border-left: 1px solid #f0f0f0;
+                width: auto;
+                >a{
+                    height: 22px;
+                    line-height: 19px;
+                    overflow: hidden;
+                    background-color: #fff;
+                    font-size: 12px;
+                    font-family: "\5b8b\4f53";
+                    color: #333;
+                    font-weight: 700;
+                    >strong{
+                        font-weight: bold;
+                    }
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+                >div{
+                    height: 25px;
+                    width: 80px;
+                    >a{
+                        display: block;
+                        height: 22px;
+                        width: 20px;
+                        line-height: 19px;
+                        overflow: hidden;
+                        background-color: #fff;
+                        font-size: 12px;
+                        font-family: "\5b8b\4f53";
+                        color: #333;
+                        font-weight: 700;
+                        background: url(../img/ww.gif) no-repeat -110px 0;
+                    }
+                }
+            }
+            >.shop-info{
+                position: relative;
+                float: left;
+                width: 132px;
+                height: 38px;
+                font-weight: 400;
+                padding: 0 10px;
+                border-left: 1px dotted #f0f0f0;
+                >.main-info{
+                    >.shopdsr-item{
+                        float: left;
+                        color: #999;
+                        width: 36px;
+                        height: 36px;
+                        position: relative;
+                        >.shopdsr-title{
+                            text-align: center;
+                        }
+                        >.shopdsr-score{
+                            padding-left: 5px;
+                            height: 18px;
+                            width: 31px;
+                            position: relative;
+                            overflow: hidden;
+                            >.fa{
+                                width: 12px;
+                                top: 4px;
+                                position: absolute;
+                                height: 12px;
+                                right: 2px;
+                            }
+                        }
+                        >.down{
+                            color: #1f7700;
+                        }
+                        >.up{
+                            color: $hTextHColor;
+                        }
+                    }
+                    >.slogo-triangle{
+                        float: left;
+                        display: block;
+                        margin: 0 0 0 14px;
+                        width: 6px;
+                        height: 38px;
+                        position: relative;
+                        >.sanjiao{
+                            border-color: #ccc #fff #fff;
+                            border-style: solid;
+                            border-width: 4px;
+                            font-size: 0;
+                            width: 0;
+                            height: 0;
+                            line-height: 0;
+                            position: absolute;
+                            right: 0;
+                            top: 15px;
+                            transform-origin: 50% 25%;
+                        }
+                    }
+                }
+                >.detail-info{
+                    display: none;
+                    left: -121.387px;
+                    top: 51px;
+                    width: 271px;
+                    z-index: 100;
+                    position: absolute;
+                    background-color: #fff;
+                    border: 1px solid #e5e5e5;
+                    >.bd{
+                        padding: 0 11px;
+                        float: left;
+                        width: 91%;
+                        >.shop-rate{
+                            margin-top: 16px;
+                            color: #666;
+                            >h4{
+                                height: 18px;
+                                margin: 0 0 10px;
+                                color: #999;
+                                font-weight: 400;
+                                >.compare{
+                                    margin-left: 55px;
+                                }
+                            }
+                            >.render-byjs{
+                                margin-left: 1px;
+                                >li{
+                                    margin: 5px 0 0;
+                                    line-height: 15px;
+                                    color: #959595;
+                                    >a{
+                                        color: #35a;
+                                        >.count{
+                                            display: inline-block;
+                                            width: 20px;
+                                        }
+                                        >.rateinfo{
+                                            >.fa{
+                                                color: #1f7700;
+                                                height: 9px;
+                                                width: 8px;
+                                                margin: 3px 5px 0 30px;
+                                                background: 0 0;
+                                                font-weight: 400;
+                                                vertical-align: top;
+                                            }
+                                            >i{
+                                                display: inline-block;
+                                                font-style: normal;
+                                                color: #999;
+                                            }
+                                            >.lower{
+                                                display: inline-block;
+                                                font-size: 12px;
+                                                color: #999;
+                                                font-weight: 400;
+                                                padding: 0 0 0 5px;
+                                            }
+                                        }
+                                        &:hover{
+                                            >em,.lower{
+                                                text-decoration: underline;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        >.extend{
+                            border-top: 1px dotted #DBDBDB;
+                            border-bottom: 1px dotted #DBDBDB;
+                            margin-top: 13px;
+                            padding: 8px 0;
+                            color: #959595;
+                            >.title{
+                                font-weight: 400;
+                                height: 18px;
+                                margin: 5px 0 10px;
+                            }
+                            >ul{
+                                >li{
+                                    line-height: 22px;
+                                    >label{
+                                        float: left;
+                                        width: 60px;
+                                    }
+                                    >.right{
+                                        margin-left: 59px;
+                                        color: #999;
+                                        position: relative;
+                                        >.ww{
+                                            background: url(../img/ww.gif) no-repeat -110px 0;
+                                            display: block;
+                                            width: 20px;
+                                            height: 20px;
+                                        }
+                                        >.age-num{
+                                            font-family: Impact,Arial;
+                                            color: #ffd800;
+                                            background-color: #f04343;
+                                            padding: 0 3px;
+                                            line-height: 0;
+                                        }
+                                        >.age-content{
+                                            color: #f04343;
+                                            padding: 0 1px;
+                                            overflow: hidden;
+                                            line-height: 0;
+                                            font-size: 13px;
+                                        }
+                                        >a:hover{
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                    >.tm-shop-age{
+                                        border: 1px solid #f04343;
+                                        height: 14px;
+                                        width: 75px;
+                                        line-height: 14px;
+                                        font-size: 13px;
+                                        margin-top: 4px;
+                                    }
+                                }
+                            }
+                        }
+                        >.other{
+                            margin: 10px 0;
+                            overflow: hidden;
+                            >a{
+                                line-height: 26px;
+                                text-align: center;
+                                >.fa{
+                                    font-size: 16px;
+                                    vertical-align: middle;
+                                    margin-left: -15px;
+                                }
+                            }
+                            >.enter-shop{
+                                float: left;
+                                margin-left: 10px;
+                                vertical-align: top;
+                                width: 81px;
+                                height: 28px;
+                                border: 1px solid #e5e5e5;
+                                padding: 0 0 0 17px;
+                                color: #404040;
+                                position: relative;
+                                background-color: #f2f2f2;
+                            }
+                            >.collect-shop{
+                                color: #fff;
+                                float: right;
+                                margin: 0 10px 0 0;
+                                vertical-align: top;
+                                width: 81px;
+                                height: 28px;
+                                border: 1px solid #ff0036;
+                                padding: 0 0 0 17px;
+                                background-color: #ff0036;
+                                position: relative;
+                            }
+                        }
+                    }
+                }
+                &:hover{
+                    .sanjiao{
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+            &:hover{
+                .detail-info{
+                    display: block;
+                }
+            }
+        }
+        >.shopwt{
+            float: left;
+            width: 54px;
+            border-left: 1px solid #f0f0f0;
+            padding: 0 10px;
+            margin: 15px 0 0;
+            position: relative;
+            >.shopwt-desc{
+                float: left;
+                width: 40px;
+                >.shopwt-title{
+                    text-align: center;
+                    color: #999;
+                    font-weight: 400;
+                }
+                >.fa{
+                    font-style: normal;
+                    font-size: 24px;
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    margin: 0 auto;
+                    color: #999;
+                    position: absolute;
+                    top: 13px;
+                    left: 14px;
+                    line-height: 40px;
+                }
+            }
+            >.slogo-triangle{
+                top: 12px;
+                left: 18px;
+                display: block;
+                margin: 0 0 0 14px;
+                width: 6px;
+                height: 38px;
+                position: relative;
+                >.sanjiao{
+                    border-color: #ccc #fff #fff;
+                    border-style: solid;
+                    border-width: 4px;
+                    font-size: 0;
+                    width: 0;
+                    height: 0;
+                    line-height: 0;
+                    position: absolute;
+                    right: 0;
+                    top: 18px;
+                    transform-origin: 50% 25%;
+                }
+            }
+            >.tm-qrcode-hpic{
+                position: absolute;
+                left: -1px;
+                top: 51px;
+                z-index: 99;
+                height: 178px;
+                width: 160px;
+                overflow: hidden;
+                border: 1px solid #e4e4e4;
+                background: #fff;
+                display: none;
+                >img{
+                    margin: 10px 10px 0;
+                    width: 140px;
+                    display: inline-block;
+                }
+                >.qr-text{
+                    width: 160px;
+                    text-align: center;
+                    color: #9E958C;
+                }
+            }
+            &:hover{
+                >.tm-qrcode-hpic{
+                    display: block;
+                }
+                .sanjiao{
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        >.header-extra{
+            overflow: hidden;
+            >.mall-search{
+                width: 540px;
+                padding: 15px 0 0;
+                float: right;
+                overflow: hidden;
+                >form{
+                    border: none;
+                    >fieldset{
+                        border: none;
+                        >legend{
+                            display: none;
+                        }
+                        >.mallSearch-input{
+                            height: 36px;
+                            background-color: #FFF;
+                            position: relative;
+                            >.defaultSearch{
+                                width: 455px;
+                                height: 30px;
+                                border: solid #ff0036;
+                                border-width: 3px 0 3px 3px;
+                                overflow: hidden;
+                                position: relative;
+                                >input{
+                                    width: 367px;
+                                    padding: 5px 3px 5px 5px;
+                                    color: #000;
+                                    margin: 0;
+                                    z-index: 2;
+                                    height: 20px;
+                                    line-height: 20px;
+                                    outline: 0;
+                                    border: none;
+                                    font-weight: 900;
+                                    box-sizing: content-box;
+                                    border-radius: 2px 0 0 2px;
+                                    vertical-align: middle;
+                                    &:focus+label{
+                                        color: rgb(204, 204, 204);
+                                    }
+                                }
+                                >label{
+                                    color: rgb(102, 102, 102);
+                                    visibility: visible;
+                                    max-width: 90%;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    font-size: 12px;
+                                    line-height: 30px;
+                                    height: 30px;
+                                    position: absolute;
+                                    left: 8px;
+                                    top: 0;
+                                    z-index: 1;
+                                    cursor: text;
+                                }
+                                >button{
+                                    position: absolute;
+                                    z-index: 1;
+                                    right: 0;
+                                    top: 0;
+                                    width: 80px;
+                                    height: 30px;
+                                    border: 0;
+                                    font-size: 16px;
+                                    letter-spacing: 0;
+                                    cursor: pointer;
+                                    color: #fff;
+                                    background-color: #ff0036;
+                                    overflow: hidden;
+                                    font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+                                    border-radius: 0;
+                                }
+                            }
+                            >button{
+                                right: 0;
+                                top: 0;
+                                background: #333;
+                                width: 80px;
+                                height: 36px;
+                                position: absolute;
+                                z-index: 1;
+                                border: 0;
+                                font-size: 16px;
+                                letter-spacing: 0;
+                                cursor: pointer;
+                                color: #fff;
+                                left: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

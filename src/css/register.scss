@@ -1,0 +1,365 @@
+$hTextHColor : #FF0036;
+body{
+    background-color: #FFF;
+}
+#main{
+    >.inner{
+        width: 990px;
+        margin: 0 auto;
+        color: #3c3c3c;
+        font: 400 12px/1.6 arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+        position: relative;
+        >.steps{
+            height: 46px;
+            border-bottom: 2px solid #e6e6e6;
+            position: relative;
+            >ul{
+                width: 720px;
+                margin: 0 auto;
+                >li{
+                    float: left;
+                    width: 170px;
+                    padding-left: 70px;
+                    display: inline-block;
+                    height: 46px;
+                    line-height: 46px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: #999;
+                    font-family: "\5FAE\8F6F\96C5\9ED1","\534E\6587\7EC6\9ED1","\9ED1\4F53",arial;
+                    >i{
+                        display: inline-block;
+                        margin-right: 5px;
+                        width: 24px;
+                        height: 24px;
+                        text-align: center;
+                        font-style: normal;
+                        line-height: 24px;
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #FFF;
+                        background: url(../img/ico-circle2.png) no-repeat 0 0;
+                    }
+                }
+                >.active{
+                    color: #3e3e3e;
+                    border-bottom: 2px solid $hTextHColor;
+                    >i{
+                        background-image: url(../img/ico-circle1.png);
+                    }
+                }
+            }
+        }
+        >.content{
+            padding: 50px 0;
+            >ul{
+                width: 720px;
+                margin: 0 auto;
+                input{
+                    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+                }
+                >li{
+                    display: none;
+                    >#agreement{
+                        left: 133px;
+                        top: 120.5px;
+                        width: 680px;
+                        margin: 0 auto;
+                        padding: 20px;
+                        color: #3e3e3e;
+                        border: 2px solid #dedede;
+                        border-top: 2px solid #ff4a00;
+                        background-color: #FFF;
+                        position: absolute;
+                        z-index: 9999;
+                        >.agreement-content{
+                            position: relative;
+                            font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+                            >a{
+                                display: inline-block;
+                                width: 24px;
+                                height: 24px;
+                                font-size: 24px;
+                                text-align: center;
+                                line-height: 24px;
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                >.fa{
+                                    font-size: 24px;
+                                    text-align: center;
+                                    line-height: 24px;
+                                    color: $hTextHColor;
+                                }
+                            }
+                            >.text-title{
+                                >h3{
+                                    font-size: 16px;
+                                }
+                            }
+                            >.text-content{
+                                p{
+                                    margin-top: 8px;
+                                    margin-left: 5px;
+                                }
+                                strong{
+                                    color: #000;
+                                    font-weight: 700;
+                                }
+                                a{
+                                    font-weight: 700;
+                                    font-size: 14px;
+                                    color: $hTextHColor;
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                                button{
+                                    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+                                    min-width: 180px;
+                                    background: $hTextHColor;
+                                    display: inline-block;
+                                    height: 36px;
+                                    line-height: 36px;
+                                    padding: 0 20px;
+                                    color: #FFF;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    text-align: center;
+                                    border: 0;
+                                    border-radius: 3px;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: rgba(255,0,54,.8);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    >form{
+                        >.form-list{
+                            margin: 0 auto;
+                            font-size: 14px;
+                            width: 720px;
+                            >.form-group{
+                                padding: 10px 0;
+                                >.form-item{
+                                    padding: 10px 0 10px 260px;
+                                    line-height: 36px;
+                                    >.form-label{
+                                        float: left;
+                                        margin-left: -260px;
+                                        width: 240px;
+                                        height: 37px;
+                                        line-height: 37px;
+                                        text-align: right;
+                                    }
+                                    >.mobile-text{
+                                        >.tb-select{
+                                            width: 150px;
+                                            border-right: 1px solid #ccc;
+                                            border: 1px solid #ccc;
+                                            font-size: 14px;
+                                            outline: 0;
+                                            position: relative;
+                                            cursor: pointer;
+                                            float: left;
+                                            padding-left: 10px;
+                                            height: 35px;
+                                            font-weight: 700;
+                                            overflow: hidden;
+                                            >.text{
+                                                float: left;
+                                                width: 85px;
+                                                overflow: hidden;
+                                                text-overflow: ellipsis;
+                                                white-space: nowrap;
+                                                height: 35px;
+                                            }
+                                            >.code{
+                                                float: right;
+                                                margin-right: 25px;
+                                            }
+                                            >.icon{
+                                                position: absolute;
+                                                top: 15px;
+                                                right: 8px;
+                                                width: 10px;
+                                                height: 5px;
+                                                background: url(../img/up_down.png) no-repeat -10px -25px;
+                                            }
+                                        }
+                                        >#J_Mobile{
+                                            width: 140px;
+                                            float: left;
+                                            border: 1px solid #dedede;
+                                            height: 17px;
+                                            line-height: 17px;
+                                            padding: 9px;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                    #J_BtnMobileForm{
+                                        min-width: 180px;
+                                        display: inline-block;
+                                        height: 36px;
+                                        line-height: 36px;
+                                        padding: 0 20px;
+                                        color: #FFF;
+                                        font-weight: 700;
+                                        font-size: 16px;
+                                        text-align: center;
+                                        border: 0;
+                                        border-radius: 3px;
+                                    }
+                                    .disable{
+                                        background: #ededed!important;
+                                        &:hover{
+                                            background: #dedede!important;
+                                        }
+                                    }
+                                    .enable{
+                                        background: $hTextHColor;
+                                        cursor: pointer;
+                                        &:hover{
+                                            background-color: rgba(255,0,54,.8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .check-slider{
+                            width: 300px;
+                            height: 34px;
+                            background: #e8e8e8;
+                            position: relative;
+                            >.show-text{
+                                width: 100%;
+                                height: 100%;
+                                text-align: center;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                z-index: 9;
+                                cursor: pointer;
+                                font: 400 12px/34px arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+                            }
+                            >.cover{
+                                height: 100%;
+                                width: 0;
+                                background-color: #7ac23c;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                z-index: 8;
+                            }
+                            >.fa{
+                                text-align: center;
+                                width: 40px;
+                                height: 32px;
+                                line-height: 32px;
+                                border: 1px solid #ccc;
+                                position: absolute;
+                                left: 0;
+                                cursor: move;
+                                background: #fff;
+                                z-index: 10;
+                                color: #737383;
+                                font-size: 16px;
+                            }
+                            >.fa-check-circle{
+                                color: #00cc00;
+                            }
+                        }
+                        input{
+                            border: 1px solid #dedede;
+                            width: 202px;
+                            height: 17px;
+                            line-height: 17px;
+                            padding: 9px;
+                            font-size: 14px;
+                            vertical-align: middle;
+                        }
+                        button{
+                            min-width: 180px;
+                            display: inline-block;
+                            height: 36px;
+                            line-height: 36px;
+                            padding: 0 20px;
+                            color: #FFF;
+                            font-weight: 700;
+                            font-size: 16px;
+                            text-align: center;
+                            border: 0;
+                            border-radius: 3px;
+                        }
+                        .form-label-b{
+                            font-weight: 700;
+                            >.text{
+                                font-weight: 400;
+                            }
+                        }
+                        .notice{
+                            width: 10px;
+                            height: 37px;
+                            position: relative;
+                            display: inline-block;
+                            vertical-align: middle;
+                            >.fa{
+                                position: absolute;
+                                left: 5px;
+                                top: 10px;
+                                font-size: 16px;
+                            }
+                            >.fa-info-circle{
+                                color: #00bfff;
+                            }
+                            >.notice-t{
+                                position: absolute;
+                                left: 25px;
+                                top: 10px;
+                                font-size: 12px;
+                                line-height: 1.4;
+                                width: 345px;
+                            }
+                        }
+                    }
+                }
+                >li:last-child{
+                    padding: 50px 100px;
+                    >p{
+                        padding: 10px;
+                        
+                    }
+                    >.text{
+                        color: #00ee00;
+                        font-size: 24px;
+                        font-weight: 700;
+                        font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+                    }
+                    >.jump{
+                        font-size: 18px;
+                        font-weight: 500;
+                        >em{
+                            padding: 0 5px;
+                            color: red;
+                            font-weight: 600;
+                        }
+                        >a{
+                            padding-left: 5px;
+                            color: #333;
+                            font-weight: 600;
+                            &:hover{
+                                color: $hTextHColor;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+                >.active{
+                    display: block;
+                }
+            }
+        }
+    }
+}

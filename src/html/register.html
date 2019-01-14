@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/register.min.css">
+</head>
+<body>
+    <section id="main">
+        <div class="inner">
+            <header class="steps">
+                <ul class="clear">
+                    <li class="active">
+                        <i>1</i>
+                        <span>设置用户名</span>
+                    </li>
+                    <li>
+                        <i>2</i>
+                        <span>填写账号信息</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-check"></i>
+                        <span>注册成功</span>
+                    </li>
+                </ul>
+            </header>
+            <div class="content">
+                <ul>
+                    <li class="active">
+                        <div id="agreement">
+                            <div class="agreement-content">
+                                <a href="index.html">
+                                    <i class="fa fa-close"></i>
+                                </a>
+                                <div class="text-title">
+                                    <h3>注册协议</h3>
+                                </div>
+                                <div class="text-content">
+                                    <p>
+                                        <strong>【审慎阅读】</strong>
+                                        您在申请注册流程中点击同意前，应当认真阅读以下协议。
+                                        <strong style="text-decoration: underline">请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong>
+                                    </p>
+                                    <p>
+                                        1、
+                                        <strong style="text-decoration: underline">与您约定免除或限制责任的条款；</strong>
+                                    </p>
+                                    <p>
+                                        2、
+                                        <strong style="text-decoration: underline">与您约定法律适用和管辖的条款；</strong>
+                                    </p>
+                                    <p>
+                                        3、
+                                        <strong style="text-decoration: underline">其他以粗体下划线标识的重要条款。</strong>
+                                    </p>
+                                    <p>
+                                        如您对协议有任何疑问，可向平台客服咨询。
+                                    </p>
+                                    <p>
+                                        <strong>【特别提示】</strong>
+                                        当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。
+                                    </p>
+                                    <p>
+                                        <strong style="text-decoration: underline">阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong>
+                                    </p>
+                                    <p>
+                                        <a href="http://terms.alicdn.com/legal-agreement/terms/TD/TD201609301342_19559.html" target="_blank">《淘宝平台服务协议》</a>
+                                    </p>
+                                    <p>
+                                        <a href="http://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html" target="_blank">《隐私权政策》</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201811121436_80276.html" target="_blank">《法律声明》</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://ds.alipay.com/fd-inhm9zcq/index.html" target="_blank">《支付宝服务协议》</a>
+                                    </p>
+                                    <p style="text-align:center">
+                                        <button class="btn btn-large" type="button" id="J_AgreementBtn">同意协议</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <form id="J_MobileForm" onselectstart="return false">
+                            <div class="form-list">
+                                <div class="form-group">
+                                    <div class="form-item clear">
+                                        <span class="form-label">手机号</span>
+                                        <div class="mobile-text clear">
+                                            <div class="tb-select clear">
+                                                <span class="text" title="中国大陆">中国大陆</span>
+                                                <span class="code">+86</span>
+                                                <b class="icon"></b>
+                                            </div>
+                                            <input type="text" name="mobile" id="J_Mobile" placeholder="请输入你的手机号码">
+                                            <span class="notice"><i class="fa"></i><span class="notice-t"></span></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-item clear">
+                                        <span class="form-label">验证</span>
+                                        <div class="check-slider">
+                                            <div class="cover"></div>
+                                            <div class="show-text">请按住滑块，拖动到最右边</div>
+                                            <div id="slider-block" class="fa fa-angle-double-right"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <button type="button" class="btn disable" id="J_BtnMobileForm">下一步</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                    <li>
+                        <form id="J_InfoForm">
+                            <div class="form-list">
+                                <div class="form-group">
+                                    <div class="form-item clear">
+                                        <span class="form-label form-label-b">登录名</span>
+                                        <span id="login-name"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item form-label-b clear">
+                                        <span class="form-label">请设置登录密码</span>
+                                        <span class="text">登录时验证，保护账号信息</span>
+                                    </div>
+                                    <div class="form-item clear">
+                                        <span class="form-label">邮箱</span>
+                                        <input type="text" id="email" placeholder="请输入邮箱" />
+                                        <span class="notice"><i class="fa"></i><span class="notice-t"></span></span>
+                                    </div>
+                                    <div class="form-item clear">
+                                        <span class="form-label">登录密码</span>
+                                        <input type="password" id="pwd" placeholder="设置你的登录密码" />
+                                        <span class="notice"><i class="fa"></i><span class="notice-t"></span></span>
+                                    </div>
+                                    <div class="form-item clear">
+                                        <span class="form-label">密码确认</span>
+                                        <input type="password" id="confirm-pwd" placeholder="请再次输入你的密码" />
+                                        <span class="notice"><i class="fa"></i><span class="notice-t"></span></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item clear">
+                                        <span class="form-label form-label-b">设置会员名</span>
+                                    </div>
+                                    <div class="form-item clear">
+                                        <span class="form-label">登录名</span>
+                                        <input type="text" id="uname" placeholder="会员名一旦设置成功，无法修改" />
+                                        <span class="notice"><i class="fa"></i><span class="notice-t"></span></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <button type="button" class="btn enable" id="J_BtnInfoForm">提交</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                    <li>
+                        <p class="text">恭喜您注册成功</p>
+                        <p class="jump"><em id="time">3</em>秒后跳转至主页<a href="index.html">点击立即跳转</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="../script/cookie.js"></script>
+    <script src="../script/register.js"></script>
+</body>
+</html>

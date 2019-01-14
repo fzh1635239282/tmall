@@ -1,0 +1,88 @@
+body {
+  background-color: #FFF;
+}
+
+#header > .inner {
+  padding: 22px 0px;
+  height: 44px;
+  width: 1190px;
+  margin: auto;
+}
+
+#header > .inner > a {
+  display: block;
+  width: 190px;
+}
+
+#header > .inner > a > img {
+  margin-top: 8px;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  background-color: #31100d;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#main > .inner {
+  position: relative;
+  width: 1190px;
+  margin: auto;
+}
+
+#main > .inner > a {
+  display: block;
+  position: absolute;
+  top: 80px;
+  left: 75px;
+  width: 630px;
+  height: 440px;
+  border: none;
+  outline: none;
+}
+
+#main > .login-page {
+  display: block;
+  right: 224.5px;
+  position: absolute;
+  top: 91px;
+  background: #fff;
+  width: 350px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#footer-content > #footer > .tmall-ensure, #footer-content > #footer > .tmall-desc {
+  display: none;
+}
+
+#footer-content > #footer > .tmall-copyright, #footer-content > #footer > .server-num, #footer-content > #footer .copyright {
+  background-color: #FFF;
+  border-top: none;
+}
+
+#footer-content > #footer p a {
+  color: #000;
+}
+
+#footer-content > #footer .copyright span {
+  color: #666;
+}
+
+#footer-content > #footer .copyright a {
+  color: #999;
+}
+
+#footer-content > #footer a:hover {
+  text-decoration: underline;
+}
+
+#footer-content > #footer b {
+  color: #999;
+}
+
+#footer-content > #footer .server-num {
+  color: #FFF;
+}

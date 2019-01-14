@@ -1,0 +1,128 @@
+#footer {
+  font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+
+#footer > .tmall-ensure {
+  width: 1190px;
+  height: 100px;
+  background: url(../img/info_img.jpg) no-repeat;
+  margin: 25px auto;
+}
+
+#footer > .tmall-ensure > a {
+  float: left;
+  display: block;
+  width: 297px;
+  height: 100px;
+}
+
+#footer > .tmall-desc {
+  background-image: url(../img/footer_logo.png) no-repeat 68px 25px;
+  width: 1190px;
+  padding-top: 22px;
+  height: 190px;
+  margin: auto;
+  border-top: 1px solid #ededed;
+  background: url(../img/footer_logo.jpg) 45px bottom no-repeat;
+}
+
+#footer > .tmall-desc > .links-list > .links {
+  float: left;
+  width: 186px;
+  padding-left: 52px;
+}
+
+#footer > .tmall-desc > .links-list > .links > dt {
+  color: #646464;
+  font-size: 16px;
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+}
+
+#footer > .tmall-desc > .links-list > .links > dd > a {
+  display: block;
+  text-align: left;
+  width: 100px;
+  overflow: hidden;
+  text-align: left;
+  height: 20px;
+  line-height: 20px;
+  color: #8b8b8b;
+}
+
+#footer > .tmall-desc > .links-list > .links > .qrcode-link > a {
+  width: 105px;
+  height: 105px;
+}
+
+#footer > .tmall-desc > .links-list > .links > .qrcode-link > a > img {
+  width: 105px;
+  height: 105px;
+}
+
+#footer > .tmall-copyright {
+  border-top: 2px solid #FF0036;
+  background: #000;
+  text-align: left;
+  min-height: 177px;
+}
+
+#footer > .tmall-copyright > .tmall-info, #footer > .tmall-copyright > .tmall-otherlink, #footer > .tmall-copyright > .copyright {
+  width: 1190px;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 25px;
+}
+
+#footer > .tmall-copyright > p {
+  padding: 5px 0;
+}
+
+#footer > .tmall-copyright > p > a {
+  margin-right: 3px;
+  color: #fff;
+}
+
+#footer > .tmall-copyright > .copyright {
+  line-height: 20px;
+  background: #000;
+  color: #a4a4a4;
+}
+
+#footer > .tmall-copyright > .copyright > a {
+  color: #a4a4a4;
+}
+
+#footer > .tmall-copyright > .copyright > a > img {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+#footer > .tmall-copyright > .copyright > .mr-65 {
+  margin-right: 65px;
+}
+
+#footer > .tmall-copyright > .copyright > b {
+  display: block;
+  color: #686868;
+  font-weight: 400;
+}
+
+#footer > .tmall-copyright > .copyright > .footer-fp-img {
+  display: none;
+  margin-top: 10px;
+}
+
+#footer > .tmall-copyright > .copyright > .footer-fp-img > a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#footer > .server-num {
+  color: #000;
+  font-size: 11px;
+  background: #000;
+  text-align: center;
+}

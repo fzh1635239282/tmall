@@ -1,0 +1,29 @@
+@charset "utf-8";
+$a_color1 : #999;
+$a_hover_red : #FF0036;
+$body_bg_color : #f5f5f5;
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,li,dt,dd,table,tr,td,html,body,button,form,input,textarea,fieldset{margin: 0;padding: 0;}
+body{
+    background-color: $body_bg_color;
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    overflow-x: hidden;
+    width: 100%;
+}
+a{text-decoration: none; color: $a_color1;}
+em,strong,b,i{
+    font-weight: normal;
+    font-style: normal;
+}
+li{list-style: none;}
+img{display: block;}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper{
+    width: 1230px;
+    margin: 0 auto;
+    padding-right: 30px;
+}

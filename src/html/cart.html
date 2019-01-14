@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/hTopMenu.min.css">
+    <link rel="stylesheet" href="../css/footer.min.css">
+    <link rel="stylesheet" href="../css/cart.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="h-top">
+            <div class="wrapper clear">
+                <div class="back-home">
+                    <i class="fa fa-home"></i>
+                    <a href="../html/index.html">天猫首页</a>
+                </div>
+                <p class="login">
+                    <span class="wellcome">喵，欢迎来天猫</span>
+                    <a href="login.html" class="login-link">请登录</a>
+                    <a href="register.html" class="register-link">免费注册</a>
+                </p>
+                <ul class="h-topMenu clear">
+                </ul>
+            </div>
+        </div>
+        <div class="h-mid">
+            <div class="wrapper">
+                <div class="J_Header">
+                    <a class="logo" href="index.html" title="淘宝网 Taobao.com - 阿里巴巴旗下网站" target="_top">淘宝网</a>
+                    <form class="search-box">
+                        <input id="q" name="q" class="search-input" >
+                        <button class="btn-search" type="submit">搜 索</button>
+                        <ul class="search-tab">
+                            <li class="show">宝贝</li>
+                            <li>天猫</li>
+                            <li>店铺</li>
+                        </ul>
+                        <i class="fa fa-angle-down"></i>
+                        <i class="bg-search"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="main">
+        <div id="J_Cart" class="wrapper">
+            <div class="cart-filter-bar">
+                <ul class="switch-cart clear">
+                    <li class="current btn-switch-cart">
+                        <a href="#">
+                            <em>全部商品</em>
+                            <span class="number">2</span>
+                            <span class="pipe"></span>
+                        </a>
+                    </li>
+                    <li class="btn-switch-cart disable">
+                        <a href="#">
+                            <em>降价商品</em>
+                            <span class="number">0</span>
+                            <span class="pipe"></span>
+                        </a>
+                    </li>
+                    <li class="btn-switch-cart disable">
+                        <a href="#">
+                            <em>库存紧张</em>
+                            <span class="number">0</span>
+                            <span class="pipe"></span>
+                        </a>
+                    </li>
+                    <li class="bg-line"></li>
+                </ul>
+                <div class="cart-sum">
+                    <span class="pay-text">已选商品（不含运费）</span>
+                    <strong class="price">0.00</strong>
+                    <a id="J_SmallSubmit" class="btn-area disabled">结&nbsp;算</a>
+                </div>
+            </div>
+            <div id="J_CartMain" class="cart-main">
+                <div class="cart-table-th">
+                    <div class="J_SelectAll check_box">
+                        <span></span>
+                        全选
+                    </div>
+                    <div class="th-info">商品信息</div>
+                    <div class="th-inner"></div>
+                    <div class="th-one-price">单价</div>
+                    <div class="th-count">数量</div>
+                    <div class="th-money">金额</div>
+                    <div class="th-op">操作</div>
+                </div>
+                <ul class="J_OrderList">
+                    <li class="item">
+                        <div class="J_ItemHead">
+                            <div class="shop-info">
+                                <div class="selectAllShop check_box">
+                                    <span></span>
+                                </div>
+                                &nbsp;&nbsp;
+                                <span class="icon-B"></span>
+                                店铺：
+                                <a href="#" title="wacom黑格专卖店" class="J_MakePoint">wacom黑格专卖店</a>
+                                <span class="ww-small">
+                                    <a href="#">旺旺在线</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="order-info">
+                            <div class="item-body">
+                                <ul class="item-content clear">
+                                    <li class="td td-chk clear">
+                                        <div class="selectOne check_box">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="td td-item clear">
+                                        <a href="#" class="item-pic">
+                                            <img src="../img/cart_hover_small1.jpg" alt="">
+                                            <div class="subnav">
+                                                <span class="arrow"></span>
+                                                <img src="../img/cart_hover_biger1.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-basic-info">
+                                                <a href="#" class="item-title">wacom ctl6100影拓数位板intuos绘画PS漫画ctl690升级手写手绘板</a>
+                                            </div>
+                                            <div class="item-other-info">
+                                                <div class="promo-logos">
+                                                    <p class="promo-logo">
+                                                        <img src="../img/promo-logos1.png" alt="">
+                                                    </p>
+                                                </div>
+                                                <div class="item-icon-list">
+                                                    <span class="item-icon"><img src="../img/item-icons1.png" alt=""></span>
+                                                    <a href="#" class="item-icon"><img src="../img/item-icons2.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="td td-info">
+                                        <p class="sku-line">尺寸：26.4x20cm</p>
+                                        <p class="sku-line">颜色分类：赭石黑</p>
+                                        <span class="sku-edit">修改</span>
+                                    </li>
+                                    <li class="td td-price">
+                                        <div class="item-price">
+                                            <div class="price-original">￥999.00</div>
+                                            <div class="price-now">￥949.00</div>
+                                        </div>
+                                    </li>
+                                    <li class="td td-amount">
+                                        <div class="item-amount">
+                                            <a class="J_Minus disabled">-</a>
+                                            <input type="text" value="1" class="text-amount" autocomplete="off">
+                                            <a class="J_Plus">+</a>
+                                        </div>
+                                        <div class="amount-msg">
+                                            最多只能购买<em class="stock">11</em>件
+                                        </div>
+                                    </li>
+                                    <li class="td td-sum">
+                                        <em class="J_ItemSum">￥949.00</em>
+                                    </li>
+                                    <li class="td td-op">
+                                        <a href="#" class="J_Fav">移入收藏夹</a>
+                                        <a href="#" class="J_Del">删除</a>
+                                        <a href="#" class="J_Like">相似宝贝</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item-body">
+                                <ul class="item-content clear">
+                                    <li class="td td-chk clear">
+                                        <div class="selectOne check_box">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="td td-item clear">
+                                        <a href="#" class="item-pic">
+                                            <img src="../img/cart_hover_small2.jpg" alt="">
+                                            <div class="subnav">
+                                                <span class="arrow"></span>
+                                                <img src="../img/cart_hover_biger2.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-basic-info">
+                                                <a href="#" class="item-title">wacom数位板 蓝牙无线手绘板4intuos5影拓ctl-6100wl和冠电脑绘画</a>
+                                            </div>
+                                            <div class="item-other-info">
+                                                <div class="promo-logos">
+                                                    <p class="promo-logo">
+                                                        <img src="../img/promo-logos1.png" alt="">
+                                                    </p>
+                                                </div>
+                                                <div class="item-icon-list">
+                                                    <span class="item-icon"><img src="../img/item-icons1.png" alt=""></span>
+                                                    <a href="#" class="item-icon"><img src="../img/item-icons2.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="td td-info">
+                                        <p class="sku-line">尺寸：26.4x20cm</p>
+                                        <p class="sku-line">颜色分类：1薄荷绿 蓝牙版</p>
+                                        <span class="sku-edit">修改</span>
+                                    </li>
+                                    <li class="td td-price">
+                                        <div class="item-price">
+                                            <div class="price-original">￥1480.00</div>
+                                            <div class="price-now">￥1199.00</div>
+                                        </div>
+                                    </li>
+                                    <li class="td td-amount">
+                                        <div class="item-amount">
+                                            <a class="J_Minus disabled">-</a>
+                                            <input type="text" value="1" class="text-amount" autocomplete="off">
+                                            <a class="J_Plus">+</a>
+                                        </div>
+                                    </li>
+                                    <li class="td td-sum">
+                                        <em class="J_ItemSum">￥1199.00</em>
+                                    </li>
+                                    <li class="td td-op">
+                                        <a href="#" class="J_Fav">移入收藏夹</a>
+                                        <a href="#" class="J_Del">删除</a>
+                                        <a href="#" class="J_Like">相似宝贝</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="J_ItemHead">
+                            <div class="shop-info">
+                                <div class="selectAllShop check_box">
+                                    <span></span>
+                                </div>
+                                &nbsp;&nbsp;
+                                <span class="icon-B"></span>
+                                店铺：
+                                <a href="#" title="wacom黑格专卖店" class="J_MakePoint">wacom黑格专卖店</a>
+                                <span class="ww-small">
+                                    <a href="#">旺旺在线</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="order-info">
+                            <div class="item-body">
+                                <ul class="item-content clear">
+                                    <li class="td td-chk clear">
+                                        <div class="selectOne check_box">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="td td-item clear">
+                                        <a href="#" class="item-pic">
+                                            <img src="../img/cart_hover_small1.jpg" alt="">
+                                            <div class="subnav">
+                                                <span class="arrow"></span>
+                                                <img src="../img/cart_hover_biger1.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-basic-info">
+                                                <a href="#" class="item-title">wacom ctl6100影拓数位板intuos绘画PS漫画ctl690升级手写手绘板</a>
+                                            </div>
+                                            <div class="item-other-info">
+                                                <div class="promo-logos">
+                                                    <p class="promo-logo">
+                                                        <img src="../img/promo-logos1.png" alt="">
+                                                    </p>
+                                                </div>
+                                                <div class="item-icon-list">
+                                                    <span class="item-icon"><img src="../img/item-icons1.png" alt=""></span>
+                                                    <a href="#" class="item-icon"><img src="../img/item-icons2.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="td td-info">
+                                        <p class="sku-line">尺寸：26.4x20cm</p>
+                                        <p class="sku-line">颜色分类：赭石黑</p>
+                                        <span class="sku-edit">修改</span>
+                                    </li>
+                                    <li class="td td-price">
+                                        <div class="item-price">
+                                            <div class="price-original">￥999.00</div>
+                                            <div class="price-now">￥949.00</div>
+                                        </div>
+                                    </li>
+                                    <li class="td td-amount">
+                                        <div class="item-amount">
+                                            <a class="J_Minus disabled">-</a>
+                                            <input type="text" value="1" class="text-amount" autocomplete="off">
+                                            <a class="J_Plus">+</a>
+                                        </div>
+                                    </li>
+                                    <li class="td td-sum">
+                                        <em class="J_ItemSum">￥949.00</em>
+                                    </li>
+                                    <li class="td td-op">
+                                        <a href="#" class="J_Fav">移入收藏夹</a>
+                                        <a href="#" class="J_Del">删除</a>
+                                        <a href="#" class="J_Like">相似宝贝</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item-body">
+                                <ul class="item-content clear">
+                                    <li class="td td-chk clear">
+                                        <div class="selectOne check_box">
+                                            <span></span>
+                                        </div>
+                                    </li>
+                                    <li class="td td-item clear">
+                                        <a href="#" class="item-pic">
+                                            <img src="../img/cart_hover_small2.jpg" alt="">
+                                            <div class="subnav">
+                                                <span class="arrow"></span>
+                                                <img src="../img/cart_hover_biger2.jpg" alt="">
+                                            </div>
+                                        </a>
+                                        <div class="item-info">
+                                            <div class="item-basic-info">
+                                                <a href="#" class="item-title">wacom数位板 蓝牙无线手绘板4intuos5影拓ctl-6100wl和冠电脑绘画</a>
+                                            </div>
+                                            <div class="item-other-info">
+                                                <div class="promo-logos">
+                                                    <p class="promo-logo">
+                                                        <img src="../img/promo-logos1.png" alt="">
+                                                    </p>
+                                                </div>
+                                                <div class="item-icon-list">
+                                                    <span class="item-icon"><img src="../img/item-icons1.png" alt=""></span>
+                                                    <a href="#" class="item-icon"><img src="../img/item-icons2.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="td td-info">
+                                        <p class="sku-line">尺寸：26.4x20cm</p>
+                                        <p class="sku-line">颜色分类：1薄荷绿 蓝牙版</p>
+                                        <span class="sku-edit">修改</span>
+                                    </li>
+                                    <li class="td td-price">
+                                        <div class="item-price">
+                                            <div class="price-original">￥1480.00</div>
+                                            <div class="price-now">￥1199.00</div>
+                                        </div>
+                                    </li>
+                                    <li class="td td-amount">
+                                        <div class="item-amount">
+                                            <a class="J_Minus disabled">-</a>
+                                            <input type="text" value="1" class="text-amount" autocomplete="off">
+                                            <a class="J_Plus">+</a>
+                                        </div>
+                                    </li>
+                                    <li class="td td-sum">
+                                        <em class="J_ItemSum">￥1199.00</em>
+                                    </li>
+                                    <li class="td td-op">
+                                        <a href="#" class="J_Fav">移入收藏夹</a>
+                                        <a href="#" class="J_Del">删除</a>
+                                        <a href="#" class="J_Like">相似宝贝</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="J_FloatBarHolder">
+                <div class="J_SelectAll check_box">
+                    <span></span>
+                    &nbsp;全选
+                </div>
+                <div class="operations">
+                    <a href="#" class="J_DeleteSelected">删除</a>
+                    <a href="#" class="J_BatchFav">移入收藏夹</a>
+                    <a href="#" class="J_BatchShare">分享</a>
+                </div>
+                <div class="bar-right">
+                    <div class="amount-sum">
+                        <span class="txt">已选商品</span>
+                        <em id="J_SelectedItemsCount">0</em>
+                        <span class="txt">件</span>
+                    </div>
+                    <div class="pipe"></div>
+                    <div class="price-sum">
+                        <span class="txt">合计（不含运费）：</span>
+                        <em class="icon">￥</em>
+                        <strong class="price">0.00</strong>
+                    </div>
+                    <a href="#" class="btn-area disabled">
+                        结算
+                    </a>
+                </div>
+            </div>
+            <div class="nothing displayN">
+                <div class="crumb">
+                    <strong>您的位置：</strong>
+                    <ul class="crumbs">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="#">我的淘宝</a></li>
+                        <li class="current">我的购物车</li>
+                    </ul>
+                    <span class="cart-tip">
+                        购物车帮您一次性完成批量购买与付款，下单更便捷，付款更简单！
+                        <a href="#">如何使用购物车</a>
+                    </span>
+                </div>
+                <div class="empty">
+                    <h2>您的购物车还是空的，赶紧行动吧！您可以：</h2>
+                    <ul>
+                        <li>看看 <a href="#">我的收藏夹</a></li>
+                        <li>看看 <a href="#">已买到的宝贝</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer"></footer>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../script/cookie.js"></script>
+    <script src="../script/cart.js"></script>
+</body>
+</html>
